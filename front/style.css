@@ -1,0 +1,77 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    background-color: black;
+    color: white;
+}
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container-image {
+    display: flex;
+    width: 100px;
+    gap: 0.4rem;
+    align-items: center;
+}
+
+.img-header {
+    width: 30px;
+    height: 30px;
+}
+
+/* section mais vendidos */
+#mais-vendidos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#mais-vendidos img {
+    width: 50%;
+    padding-top: 20px;
+}
+
+.imgs-grid {
+    display: flex;
+    text-align: left;
+}
+
+.imgs-grid div h4 {
+    width: 100%;
+}
+
+.container-info h4 {
+    font-size: 10px;
+}
+
+.container-info p {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+footer {
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+}
